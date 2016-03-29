@@ -1,0 +1,44 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Pangram</title>
+</head>
+<body>
+
+<input type="text" id="text">
+
+<button onclick="check()">Check</button>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+function isPangram(string) {
+    var regex = /([a-z])(?!.*\1)/g;
+    return (string.match(regex) || []).length === 26;
+}
+
+var regex = /([a-z])(?!.*\1)/g;
+
+function check() {
+  var val = document.getElementById('text').value.toLowerCase();
+
+  alert(val.match(regex).length == 26);
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
