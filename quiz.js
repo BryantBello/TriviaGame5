@@ -16,7 +16,7 @@
         choices: ["Mickey Mantle", "Babe Ruth", "Joe DiMaggio", "Lou Gehrig"],
         correctAnswer: 3
     }, {
-        question: "When was Babe Ruth sold to the Yankees?",
+        question: "When was Babe Ruth sold to the Yankees??",
         choices: [1916, 1918, 1919, 1920],
         correctAnswer: 3
 
