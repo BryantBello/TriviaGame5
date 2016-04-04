@@ -26,8 +26,20 @@
         correctAnswer: 3
 
     }, {
-        question: "In what year was Yankee Stadium (original) opened?",
-        choices: [2003 , 1919, 1923, 2006],
+        question: "Who is not a member of the 'Core Four'?",
+        choices: ["Derek Jeter" , "Babe Ruth", "Jorge Posada", "Andy Pettite"],
+        correctAnswer: 1
+    }, {
+        question: "What year did the Yankees play the Mets in the 'Subway Series?",
+        choices: [2003 , 2002, 2001, 2000],
+        correctAnswer: 3
+    }, {
+        question: "In what borough is Yankee Stadium located?",
+        choices: ["Manhatten" , "Brooklyn", "Bronx", "Queens"],
+        correctAnswer: 2
+    }, {
+        question: "In what year did Derek Jeter retire?",
+        choices: [2003 , 2009, 2014, 2013],
         correctAnswer: 2
 
 
